@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Contato</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Página Inicial</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+	<h1>Entre em contato conosco!</h1>
+
+	<p>Preencha o formulário abaixo para receber fofocas quentinhas:</p>
+
+	<form>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"><br><br>
+
+		<label for="sobrenome">Sobrenome:</label>
+		<input type="text" id="sobrenome" name="sobrenome"><br><br>
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="data-nascimento">Data de nascimento:</label>
+		<input type="date" id="data-nascimento" name="data-nascimento"><br><br>
+
+		<label for="telefone">Telefone:</label>
+		<input type="tel" id="telefone" name="telefone"><br><br>
+
+		<label for="interesse">Qual conteúdo mais te interessa?</label>
+		<select id="interesse" name="interesse">
+			<option value="noticias">Notícias</option>
+			<option value="fofocas">Fofocas</option>
+			<option value="entretenimento">Entretenimento</option>
+		</select><br><br>
+
+		<label for="termos">Concordo com os termos de uso:</label>
+		<input type="checkbox" id="termos" name="termos"><br><br>
+
+		<label for="envio-email">Aceito o envio de emails:</label>
+		<input type="checkbox" id="envio-email" name="envio-email"><br><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</main>
+
+<main>
+	<h1>Últimas Notícias</h1>
+
+	<article>
+		<h2>Harry Styles é flagrado cantando no chuveiro durante uma live no Instagram</h2>
+		<img src="https://veja.abril.com.br/wp-content/uploads/2018/05/entretenimento-harry-styles-20180313-0002.jpg?quality=70&strip=info&w=1024&resize=1200,800" alt="Imagem da Notícia">
+		<p>Durante um banho pré show em Nova York, paparazzis flagram o cantor cantando sem efeitos visuais e internet choca!</p>
+	</article>
+
+	<article>
+		<h2>Taylor Swift anuncia que vai lançar um álbum inteiro de canções de ninar para bebês.	</h2>
+		<img src="https://www.ofuxico.com.br/img/galeria/2016/01/294940.jpg" alt="Imagem da Notícia">
+		<p>Por conta do seu amor por crianças, Taylor desiste do público adulto e decide alterar para o público infantil para ajudá-los a dormir.</p>
+	</article>
+
+	<article>
+		<h2>Selena Gomez é vista saindo do supermercado com um carrinho cheio de comida para seus gatos de estimação.</h2>
+		<img src="https://cdn.meadd.net/photos/full/45289376.jpg" alt="Imagem da Notícia">
+		<p>A cantora adotou cinco gatinho na última semana e acabou se esquecendo de alimentá-los, ao vê-los com os ossos aparentes, correu ao supermercado para recuperar o tempo.</p>
+	</article>
+
+</main>
+
+<footer>
+    <ul>
+        <li>
+            <a href="https://www.instagram.com/soulcodeacademy/">Instagram</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/company/soulcodeacademy/">Linkedln</a>
+        </li>
+        <li>
+            <a href="https://soulcode.com/">Site</a>
+        </li>
+    </ul>
+
+   <button onclick="mostrarConfirm()">Enviar fofocas cômicas</button>
+   <div id="caixa-dialogo"></div>
+
+   <script>
+
+	   function mostrarConfirm() {
+		   var resposta = window.confirm("Deseja enviar fofocas cômicas para nós?");
+		   if (resposta === true) {
+			 var email = window.prompt("Digite seu endereço de e-mail:");
+		   } else {
+		   }
+		 }
+		   
+	  </script>
+	
+	</div>
+</footer>
+
+</body>
+</html>
