@@ -1,0 +1,138 @@
+/* Estilo do cabeçalho e do menu de navegação */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+label {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+footer li {
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+#caixa-dialogo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.noticia {
+    display: inline-block;
+    width: 300px;
+    margin: 10px; 
+  }
+  
